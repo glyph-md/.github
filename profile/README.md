@@ -16,7 +16,7 @@ A modern, cross-platform markdown viewer and editor — native styling, live pre
 
 ```bash
 # macOS
-brew tap hamidfzm/tap && brew install --cask glyph
+brew tap hamidfzm/tap && brew trust hamidfzm/tap && brew install --cask glyph
 
 # Windows
 choco install glyph
