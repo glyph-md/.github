@@ -8,24 +8,24 @@ A modern, cross-platform markdown viewer and editor — native styling, live pre
 ## Repositories
 
 - **[glyph](https://github.com/hamidfzm/glyph)** — the app (Tauri v2 + React 19 + TypeScript)
-- **[homebrew-tap](https://github.com/hamidfzm/homebrew-tap)** — Homebrew formula for macOS and Linux
-- **[scoop-bucket](https://github.com/hamidfzm/scoop-bucket)** — Scoop manifest for Windows
-- **[apt-repo](https://github.com/hamidfzm/apt-repo)** — Debian/Ubuntu apt repository
+- **[homebrew-tap](https://github.com/glyph-md/homebrew-tap)** — Homebrew formula for macOS and Linux
+- **[scoop-bucket](https://github.com/glyph-md/scoop-bucket)** — Scoop manifest for Windows
+- **[apt-repo](https://github.com/glyph-md/apt-repo)** — Debian/Ubuntu apt repository
 
 ## Install
 
 ```bash
 # macOS
-brew tap hamidfzm/tap && brew trust hamidfzm/tap && brew install --cask glyph
+brew tap glyph-md/tap && brew trust glyph-md/tap && brew install --cask glyph
 
 # Windows
 choco install glyph
 
 # Linux
-brew tap hamidfzm/tap && brew install glyph
+brew tap glyph-md/tap && brew install glyph
 ```
 
-Full install instructions: see the [project README](https://github.com/hamidfzm/glyph#install).
+Full install instructions: see [glyph.md](https://glyph.md/#download).
 
 ## Get involved
 
