@@ -25,7 +25,7 @@ choco install glyph
 brew tap glyph-md/tap && brew install glyph
 ```
 
-Full install instructions: see [glyph.md](https://glyph.md/#download).
+Full install instructions: see [glyph.md](https://glyph-md.github.io/#download).
 
 ## Get involved
 
