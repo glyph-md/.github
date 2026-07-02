@@ -11,6 +11,7 @@ A modern, cross-platform markdown viewer and editor — native styling, live pre
 - **[homebrew-tap](https://github.com/glyph-md/homebrew-tap)** — Homebrew formula for macOS and Linux
 - **[scoop-bucket](https://github.com/glyph-md/scoop-bucket)** — Scoop manifest for Windows
 - **[apt-repo](https://github.com/glyph-md/apt-repo)** — Debian/Ubuntu apt repository
+- **[rpm-repo](https://github.com/glyph-md/rpm-repo)** — Fedora/RHEL dnf repository
 
 ## Install
 
@@ -21,8 +22,11 @@ brew tap glyph-md/tap && brew trust glyph-md/tap && brew install --cask glyph
 # Windows
 choco install glyph
 
-# Linux
+# Linux (Homebrew)
 brew tap glyph-md/tap && brew install glyph
+
+# Fedora / RHEL
+sudo tee /etc/yum.repos.d/glyph.repo < <(curl -fsSL https://glyph-md.github.io/rpm-repo/glyph.repo) && sudo dnf install glyph
 ```
 
 Full install instructions: see the [Glyph website](https://glyph-md.github.io/#download).
