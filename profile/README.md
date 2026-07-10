@@ -20,7 +20,7 @@ A modern, cross-platform markdown viewer and editor — native styling, live pre
 brew tap glyph-md/tap && brew trust glyph-md/tap && brew install --cask glyph
 
 # Windows
-choco install glyph
+winget install hamidfzm.Glyph
 
 # Linux (Homebrew)
 brew tap glyph-md/tap && brew install glyph
