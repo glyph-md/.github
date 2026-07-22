@@ -1,0 +1,7 @@
+# Org-wide default: repos in glyph-md without their own .github/ISSUE_TEMPLATE
+# inherit this file, so their "New issue" page only offers the main tracker.
+blank_issues_enabled: false
+contact_links:
+  - name: Report a Glyph issue
+    url: https://github.com/hamidfzm/glyph/issues/new/choose
+    about: Glyph development is tracked in the main repository, including this one.
