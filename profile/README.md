@@ -1,3 +1,5 @@
+<img src="logo.png" alt="" width="96" height="96">
+
 # Glyph
 
 A modern, cross-platform markdown viewer and editor — native styling, live preview, AI assistance, and offline-first.
