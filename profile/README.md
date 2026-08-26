@@ -17,13 +17,13 @@ A modern, cross-platform markdown viewer and editor — native styling, live pre
 
 ```bash
 # macOS
-brew tap glyph-md/tap && brew trust glyph-md/tap && brew install --cask glyph
+brew tap glyph-md/tap && brew trust glyph-md/tap && brew install --cask --force glyph-md/tap/glyph
 
 # Windows
 winget install hamidfzm.Glyph
 
 # Linux (Homebrew)
-brew tap glyph-md/tap && brew install glyph
+brew tap glyph-md/tap && brew install glyph-md/tap/glyph
 
 # Fedora / RHEL
 sudo tee /etc/yum.repos.d/glyph.repo < <(curl -fsSL https://glyph-md.github.io/rpm-repo/glyph.repo) && sudo dnf install glyph
